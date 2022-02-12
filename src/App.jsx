@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="nave">
       <NavBarR />
-      <ItemListContainer greeting="Bienvenidos a VinKe-Store donde encontraras lo último en tecnologia" />
+      <ItemListContainer greeting="Bienvenidos a VinKe-Store donde encontraras las mejores guitarras" />
     </div>
   );
 }

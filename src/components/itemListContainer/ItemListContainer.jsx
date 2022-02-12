@@ -27,7 +27,7 @@ const ItemListContainer = ({ greeting }) => {
   return (
     <Contenedor>
       <h2 className="text-center pt-3">{greeting}</h2>
-      <div className="row">
+      <div className="display">
         {productos.map((el) => (
           <Item
             key={el.id}
